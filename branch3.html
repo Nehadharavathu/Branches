@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HTML5 Tags Showcase">
+<title>🌐 HTML5 Tags Showcase</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#EAF2F8;
+    line-height:1.6;
+}
+
+header{
+    background:#3498db;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#2c3e50;
+    padding:10px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+section,
+article,
+aside,
+details{
+    background:#F8FAFC;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.05);
+}
+
+h1,h2,h3{
+    margin-bottom:10px;
+}
+
+img{
+    max-width:10%;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #ccc;
+}
+
+th,td{
+    padding:10px;
+}
+
+th{
+    background:#3498db;
+    color:white;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,
+select,
+textarea,
+button{
+    padding:10px;
+}
+
+button{
+    background:#3498db;
+    color:white;
+    border:none;
+}
+
+pre{
+    background:#222;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+section,
+article,
+aside,
+details{
+    background: #A7C7E7;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+section:hover,
+article:hover,
+aside:hover,
+details:hover{
+    background: #A7C7E7;
+    border-color: #3B82F6;
+    box-shadow: 0 8px 25px rgba(59,130,246,0.2);
+    transform: translateY(-5px);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌐 HTML5 Tags Showcase</h1>
+    <p>Examples of Common HTML Tags</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#text">Text</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#table">Table</a></li>
+<li><a href="#form">Form</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section id="text">
+<h2>Text Formatting</h2>
+
+<p>
+<strong>Strong</strong>,
+<b>Bold</b><br>
+<em>Emphasis</em><br>
+<i>Italic</i><br>
+<u>Underline</u><br>
+<mark>Mark</mark><br>
+<small>Small</small><br>
+<del>Deleted</del><br>
+<ins>Inserted</ins>
+</p>
+
+
+
+<blockquote>
+This is a blockquote.
+</blockquote>
+
+<q>Inline quotation</q>
+
+<abbr title="HyperText Markup Language">
+HTML
+</abbr>
+
+<hr>
+
+
+</section>
+
+<section id="lists">
+<h2>Lists</h2>
+
+<h3>Unordered List</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+<h3>Ordered List</h3>
+<ol>
+<li>Learn HTML</li>
+<li>Learn CSS</li>
+<li>Build Projects</li>
+</ol>
+
+<h3>Description List</h3>
+<dl>
+<dt>HTML</dt>
+<dd>Page Structure</dd>
+
+<dt>CSS</dt>
+<dd>Page Styling</dd>
+</dl>
+</section>
+
+<section id="media">
+<h2>Media</h2>
+
+<figure>
+<img src="C:\NEHA\Neilit assign\16 06 assn-1\img.png"
+alt="Sample Image">
+
+<figcaption>
+Learn, Build, Create with HTML
+</figcaption>
+</figure>
+
+<audio controls>
+<source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<video width="400" controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+<iframe
+src="https://example.com"
+width="100%"
+height="200">
+</iframe>
+</section>
+
+<section id="table">
+<h2>Table</h2>
+
+<table>
+<caption>Student Data</caption>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Course</th>
+<th>Marks</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>John</td>
+<td>Python Full Stack</td>
+<td>95</td>
+</tr>
+
+<tr>
+<td>Mary</td>
+<td>Java Full Stack</td>
+<td>90</td>
+</tr>
+</tbody>
+
+
+</table>
+</section>
+
+<section id="form">
+<h2>Form Elements</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text">
+
+<label>Email</label>
+<input type="email">
+
+<label>Password</label>
+<input type="password">
+
+<label>Number</label>
+<input type="number">
+
+<label>DOB</label>
+<input type="date">
+
+
+
+<label>File Upload</label>
+<input type="file">
+
+<label>Gender</label>
+
+<div>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+</div>
+
+<div>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+</div>
+
+<label>Country</label>
+<select>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+</select>
+
+<label>Message</label>
+<textarea rows="4"></textarea>
+
+
+
+
+<button type="submit">Submit</button>
+
+<input type="reset">
+
+</form>
+</section>
+
+<article>
+<h2>Article</h2>
+<p>
+This is an article section.
+</p>
+</article>
+
+<aside>
+<h3>Aside</h3>
+<p>
+Sidebar information.
+</p>
+</aside>
+
+
+
+
+</main>
+
+<footer>
+<p>&copy; 2026 HTML5 Tags Showcase</p>
+<address>
+Email: example@email.com
+</address>
+</footer>
+
+<script>
+// Welcome message
+window.onload = function () {
+    alert("Welcome to the HTML5 Tags Showcase!");
+};
+
+// Form submission
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    alert("Form submitted successfully!");
+});
+
+// Reset button
+const resetBtn = document.querySelector('input[type="reset"]');
+
+resetBtn.addEventListener("click", function () {
+    alert("Form has been reset.");
+});
+
+// Hover effect using JavaScript
+const sections = document.querySelectorAll("section, article, aside");
+
+sections.forEach(function (item) {
+    item.addEventListener("mouseenter", function () {
+        item.style.transform = "scale(1.02)";
+    });
+
+    item.addEventListener("mouseleave", function () {
+        item.style.transform = "scale(1)";
+    });
+});
+
+// Update footer year automatically
+document.querySelector("footer p").innerHTML =
+"&copy; " + new Date().getFullYear() + " HTML5 Tags Showcase";
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html> 
+
